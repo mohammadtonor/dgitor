@@ -1,0 +1,513 @@
+@import url("Vazirmatn-RD-FD-font-face.css");
+
+.farsi-part {
+    font-family: "Vazirmatn RD FD", sans-serif !important;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .08), 0 4px 12px rgba(0, 0, 0, .08);
+    z-index: 1010;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.searchbar {
+    width: 50%;
+    position: relative;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid rgb(61, 61, 61);
+}
+
+.searchbar input {
+    position: absolute;
+    left: 50px;
+    width: 95%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.searchbar button {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(145, 145, 146);
+}
+
+.shopping-cart {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 20px;
+}
+
+
+.black-btn {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 5px 12px;
+    border: 1px solid black;
+}
+
+.globe {
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+
+.hamburger-menu {
+    display: none;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.searchbtn-responsive {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.searchbar-responsive {
+    position: absolute;
+    top: 40px;
+    left: -150px;
+}
+
+.searchbar-responsive input {
+    border: none;
+}
+
+@media (max-width: 1560px) {
+    .categories, .navlinks {
+        display: none !important;
+    }
+}
+
+@media (max-width: 880px) {
+    .login-btn, .signup-btn, .globe {
+        display: none !important;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .searchbar {
+        display: none;
+    }
+
+    .searchbtn-responsive {
+        display: block !important;
+    }
+
+    .owl-next, .owl-prev {
+        display: none !important;
+    }
+
+}
+
+.serachbar-container {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .08), 0 4px 12px rgba(0, 0, 0, .08);
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(199, 198, 198);
+}
+
+.responsive-menu {
+    position: absolute;
+    top: 70px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .08), 0 4px 12px rgba(0, 0, 0, .08);
+}
+
+.responsive-menu ul {
+    list-style: none;
+    padding: 0;
+    border: 1px solid rgb(199, 198, 198);
+    border-radius: 10px;
+    margin: 0;
+}
+
+.responsive-menu ul li:not(:last-child) {
+    border-bottom: 1px solid rgb(204, 204, 206);
+}
+
+.responsive-menu ul li {
+    padding: 10px 20px;
+}
+
+.owl-prev, .owl-next {
+    font-size: 50px !important;
+    background-color: black !important;
+    color: white !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.owl-next {
+    left: 98%;
+    top: 58%;
+}
+
+.owl-prev {
+    right: 97%;
+    top: 58%;
+}
+
+.owl-prev:hover, .owl-next:hover {
+    background-color: rgb(80, 78, 78) !important;
+}
+
+.owl-prev span, .owl-next span {
+    position: absolute;
+    top: -24px;
+    left: 14px;
+}
+
+
+.owl-theme .owl-nav [class*=owl-] {
+    border-radius: 50%;
+}
+
+.owl2 .owl-prev, .owl2 .owl-next {
+    top: 25%;
+}
+
+.owl2 .owl-dots {
+    display: none;
+}
+
+/*start */
+
+.freecourse .owl-prev, .owl-next {
+    font-size: 50px !important;
+    background-color: white !important;
+    color: blue !important;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+
+}
+
+.freecourse .owl-prev {
+    top: 118px;
+    left: -69px;
+}
+
+.freecourse .owl-next {
+    top: 118px;
+    left: 560px;
+}
+
+.freecourse.owl-theme .owl-nav [class*=owl-] {
+    border-radius: 5px;
+    border: 1px solid blue;
+
+}
+
+.freecourse.owl-next {
+    left: 98%;
+}
+
+.freecourse.owl-prev {
+    right: 97%;
+}
+
+.freecourse.owl-prev:hover, .owl-next:hover {
+    /*background-color: rgb(80, 78, 78) !important;*/
+}
+
+.freecourse.owl-prev span, .owl-next span {
+    position: absolute;
+    /*left: 14px;*/
+}
+
+.freecourse.owl-theme .owl-nav [class*=owl-] {
+    border-radius: 100%;
+}
+
+.freecourse.owl2 .owl-prev, .owl2 .owl-next {
+    top: 25%;
+}
+
+.freecourse.owl2 .owl-dots {
+    display: none;
+}
+/*end*/
+
+
+.courses {
+    list-style: none;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.courses li {
+    margin-right: 20px;
+}
+
+.white-btn {
+    padding: 5px 15px;
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: white;
+}
+
+.trial-btn {
+    background-color: #a435f0;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 80px;
+}
+
+.small-profile {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.course-link {*/
+/*    color: black;*/
+/*    font-weight: bold;*/
+/*    display: block;*/
+/*    overflow: hidden;*/
+/*    text-overflow: ellipsis;*/
+/*    white-space: nowrap;*/
+/*    @supports (-webkit-line-clamp: 2) {*/
+/*        overflow: hidden;*/
+/*        text-overflow: ellipsis;*/
+/*        white-space: initial;*/
+/*        display: -webkit-box;*/
+/*        -webkit-line-clamp: 2;*/
+/*        -webkit-box-orient: vertical;*/
+/*      }*/
+/*}*/
+
+.fa-star, .fa-star-half {
+    color: orange;
+}
+
+.rating {
+    font-weight: bold;
+    color: #b96848;
+}
+
+
+@media (max-width: 992px) {
+    .top-categories {
+        text-align: center;
+    }
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #3f3e3e !important;
+    background-color: white !important;
+}
+
+.courses a {
+    color: #000000 !important;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.tab-pane a {
+    color: #000000 !important;
+}
+
+.nav-pills .nav-item a:hover {
+    color: #1e1e1e !important;
+    background-color: white !important;
+}
+
+#perconalplanid {
+    color: #a435f0 !important;
+}
+
+/*#perconalplanid{*/
+/*    color:#a435f0 ;*/
+/*}*/
+
+
+#owlimgs .owl-carousel .owl-item img {
+    display: block;
+    width: 30% !important;
+}
+
+/*#freecourse {*/
+/*    font-size: 1rem;*/
+/*    color: #a435f0 !important;*/
+/*}*/
+
+.bestsellet {
+    width: 100px;
+    padding: 5px;
+    background-color: #eceb98;
+    color: black;
+}
+
+.startlearning a {
+    color: #000000 !important;
+}
+.freecourse img{
+    width: 100%;
+}
+.top-categories img {
+    width: 320px;
+}
+
+#findingcareer li{
+    border-radius: 40%;
+
+    background-color: white;
+    border: 1px solid black;
+}
+
+#findingcareer li:hover{
+    color: white;
+    border-radius: 50%;
+    background-color: black;
+    border: 1px solid black;
+}
+
+
+#findingcareer .nav-item {
+    font-size: 16px;
+    /*margin-left: 5px;*/
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-left: 4px;
+}
+
+#findingcareer.nav-pills .nav-item a:hover {
+    color: white !important;
+    background-color: black !important;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#findingcareer.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: white !important;
+    background-color: black !important;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+
+
+/*explore certificate*/
+
+/*start */
+
+.explorecertificate .owl-prev, .owl-next {
+    font-size: 50px !important;
+    background-color: white !important;
+    color: #7a7a7c !important;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+
+}
+
+.explorecertificate .owl-prev {
+    top: 100px;
+    left: -69px;
+}
+
+.explorecertificate .owl-next {
+    top: 100px;
+    left: 1150px;
+}
+
+.explorecertificate.owl-theme .owl-nav [class*=owl-] {
+    border-radius: 5px;
+    border: 1px solid #fafafa;
+
+}
+
+/*.explorecertificate.owl-next {*/
+/*    left: 98%;*/
+/*}*/
+
+.explorecertificate.owl-prev {
+    right: 97%;
+}
+
+.explorecertificate.owl-prev:hover, .owl-next:hover {
+    /*background-color: rgb(80, 78, 78) !important;*/
+}
+
+.explorecertificate.owl-prev span, .owl-next span {
+    position: absolute;
+    /*left: 14px;*/
+}
+
+.freecourse.owl-theme .owl-nav [class*=owl-] {
+    border-radius: 100%;
+}
+
+.freecourse.owl2 .owl-prev, .owl2 .owl-next {
+    top: 25%;
+}
+
+.freecourse.owl2 .owl-dots {
+    display: none;
+}
+end
+
+
+#findingcareer a {
+    color: black;
+}
+
+.ptagofifyoulikepart p {
+    display: inline;
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
+}
+
+.findcarrerdiv {
+
+    border: 1px solid #dcdcdc;
+}
+
+.divcontentfindcarrer {
+    padding: 10px;
+}
+.courses .tab-content{
+    border: 1px solid lightgrey;
+}
+.mw-100 {
+    max-width: 100% !important
+}

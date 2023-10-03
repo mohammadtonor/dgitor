@@ -1,0 +1,17 @@
+.file-upload-btn {
+    background-color: #7a7abd;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.file-upload-btn input[type=file] {
+    display: none;
+}
+.divstyle {
+    padding: 30px;
+    border: 1px solid gray;
+    box-shadow: 5px 4px 10px #9fb4c0;
+}

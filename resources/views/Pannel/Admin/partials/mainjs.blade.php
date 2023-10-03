@@ -1,0 +1,12 @@
+<script src="{{asset('./assets/js/jquery-3.6.4.min.js')}}"></script>
+<script src="{{asset('./assets/vendors/jquery-ui/jquery-ui.min.js')}}"></script>
+<script src="{{asset('./assets/vendors/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<script src="{{asset('./assets/js/jquery.dataTables.js')}}"></script>
+<script src="{{asset('./assets/js/dataTables.bootstrap4.js')}}"></script>
+<script src="{{asset('./assets/js/toastr.min.js')}}"></script>
+<script src="{{asset('./assets/vendors/slimscroll/jquery.slimscroll.min.js')}}"></script>
+<script src="{{asset("./assets/js/jalali-moment.browser.js")}}"></script>
+<script src="{{asset("./assets/js/jalalidatepicker.min.js")}}"></script>
+{{--App Js--}}
+<script src="{{asset('./assets/js/app.js')}}"></script>
+<script src="{{asset('./assets/js/globals.js')}}"></script>
